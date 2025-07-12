@@ -24,9 +24,14 @@ Things to reflect on:
   
 */
 
-let a = "Alice";
-let b = 5;
-let c = 20;
-let d = a + " bought " + b + " items for $" + c + ".";
+let firstName = "Alice";
+let itemNum = 5;
+let costOfItems = 20;
+let startingAmount = 50;
+let remainingAmount = startingAmount - costOfItems;
+let output = firstName + " bought " + itemNum + " items for $" + costOfItems + ".";
 
-console.log(d);
+console.log(output);
+
+output = firstName + " had $" + startingAmount + " and has $" + remainingAmount + " left."
+console.log(output);
